@@ -1,0 +1,114 @@
+/* Navbar styling */
+.nav {
+    background-color: #444;
+    display: block;
+    width: 55px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav a {
+   display: block;
+   width: 55px; 
+}
+
+
+.nav ul {
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+    top: 33%;
+    position: absolute;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+}
+.nav li {
+    font-size:12pt;
+    display:block;
+    /* float: left; */
+    height:60px;
+    width:55px;
+    /* text-align: center; */
+    transition: all 0.2s ease-in-out;
+}
+.nav .home {
+    background: #444;
+    text-align: center;
+
+}
+.nav .about {
+    background: #444;
+    text-align: center;
+
+}
+.nav .skills {
+    background: #444;
+    text-align: center;
+
+}
+.nav .projects {
+    background: #444;
+    text-align: center;
+
+}
+.nav .contact {
+    background: #444;
+   text-align: center;
+}
+.nav li a {
+    font-family: FontAwesome;
+    color:#eee;
+    font-size:26px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+.nav li i {
+    color:#fff;
+    padding-top: 7px;
+}
+.nav li b {
+    font-size: 10px;
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 7.5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav a:hover {
+    color: #fff;
+}
+.nav a:hover i {
+    display: none;
+}
+.nav a:hover b {
+    display: block;
+}
+
+#homeWord {
+    /* padding-left: 11px;  */
+}
+
+#aboutWord {
+
+}
+
+#skillsWord {
+
+}
+
+#projectsWord {
+    /* text-align: center !important;
+    padding-left: 11px; */
+}
+
+#contactWord {
+
+}
+
+
+
+
