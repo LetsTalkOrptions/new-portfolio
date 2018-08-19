@@ -1,6 +1,22 @@
+/* Body Background */
+html {
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, .9)), url("../images/back3.jpg");
+    background-size: cover;
+   
+}
+
+/* body {
+    z-index: 1;
+    height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background: rgba(0, 0, 0, 0.7);  
+} */
 /* Navbar styling */
 .nav {
-    background-color: #444;
+    background-color: rgb(10, 10, 10);
     display: block;
     width: 55px;
     height: 100%;
@@ -12,17 +28,12 @@
    display: block;
    width: 55px; 
 }
-
-
-.nav ul {
-    /* list-style: none; */
+/* Full list of icons */
+.nav ul { 
     margin: 0;
     padding: 0;
     top: 33%;
     position: absolute;
-    /* position: absolute;
-    top: 0;
-    right: 0; */
 }
 .nav li {
     font-size:12pt;
@@ -34,27 +45,23 @@
     transition: all 0.2s ease-in-out;
 }
 .nav .home {
-    background: #444;
+    background-color: rgb(10, 10, 10);
     text-align: center;
-
 }
 .nav .about {
-    background: #444;
+    background-color: rgb(10, 10, 10);
     text-align: center;
-
 }
 .nav .skills {
-    background: #444;
+    background-color: rgb(10, 10, 10);
     text-align: center;
-
 }
 .nav .projects {
-    background: #444;
+    background-color: rgb(10, 10, 10);
     text-align: center;
-
 }
 .nav .contact {
-    background: #444;
+    background-color: rgb(10, 10, 10);
    text-align: center;
 }
 .nav li a {
@@ -68,8 +75,8 @@
     padding-bottom: 7.5px;
 }
 .nav li i {
-    color:#fff;
     padding-top: 7px;
+    color: #00ffea;
 }
 .nav li b {
     font-size: 10px;
@@ -79,7 +86,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 .nav a:hover {
-    color: #fff;
+    color: #00ffea;
 }
 .nav a:hover i {
     display: none;
@@ -88,26 +95,12 @@
     display: block;
 }
 
-#homeWord {
-    /* padding-left: 11px;  */
+/* Links */
+.links {
+    text-align: center;
+    top: 85%  !important;
 }
-
-#aboutWord {
-
-}
-
-#skillsWord {
-
-}
-
-#projectsWord {
-    /* text-align: center !important;
-    padding-left: 11px; */
-}
-
-#contactWord {
-
-}
+/* End Navbar */
 
 
 
