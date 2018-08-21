@@ -2,8 +2,26 @@
 html {
     background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, .9)), url("../images/back3.jpg");
     background-size: cover;
-   
 }
+
+.pageImage {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.profilePic {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background: url("../images/me.jpg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+
 
 /* body {
     z-index: 1;
@@ -98,7 +116,7 @@ html {
 /* Links */
 .links {
     text-align: center;
-    top: 85%  !important;
+    top: 80%  !important;
 }
 /* End Navbar */
 
