@@ -26,6 +26,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+    background-attachment: fixed;
 }
 /* Profile Image on Home Page */
 .pageImage {
@@ -277,6 +278,84 @@
     height: 60%;
     width: 85%;
 }
+.project1 {
+    width: 131%;
+    display: inline-block;
+}
+.project1Title {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 20px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.project1Desc {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 16px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    width: 50%;
+    float: left;
+}
+.project1Image {
+    height: 250px;
+    width: 464px;
+    background: url(../images/screen.png);
+    background-size: cover;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5px;
+
+}
+.project2 {
+    width: 131%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.project2Title {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 20px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.project2Desc {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 16px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    width: 50%;
+    float: left;
+}
+.project2Image {
+    height: 250px;
+    width: 464px;
+    background: url(../images/train.png);
+    background-size: cover;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
 /* body {
     z-index: 1;
     height: 100%;
