@@ -28,6 +28,14 @@
     background-size: cover;  
     background-attachment: fixed;
 }
+#skills-bg {
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/sky2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment: fixed; 
+}
 /* Profile Image on Home Page */
 .pageImage {
     width: 300px;
@@ -250,7 +258,50 @@
     right: 17%;
     top: 82%;
 }
-/* projects page */
+/* Skills Page */
+.skillsContainer {
+    top: 5%;
+    left: 10%;
+    height: 70%;
+    position: absolute;
+}
+.skills {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 50px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+}
+.skillsText {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 20px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+}
+.skillsListLeft {
+    float: left;
+    width: 45%;
+    font-weight: normal !important;
+    margin-top: 50px;
+}
+.skillsListRight {
+    float: left;
+    width: 45%;
+    font-weight: normal !important;
+    margin-left: 6px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* Projects Page */
 .projectHeaderContainer {
     top: 5%;
     left: 10%;
@@ -281,6 +332,7 @@
 .project1 {
     width: 131%;
     display: inline-block;
+    margin-bottom: 25px;
 }
 .project1Title {
     font-family: 'Rubik', sans-serif;
@@ -315,7 +367,7 @@
 .project2 {
     width: 131%;
     display: inline-block;
-    margin-top: 20px;
+    margin: 25px 0;
 }
 .project2Title {
     font-family: 'Rubik', sans-serif;
@@ -345,15 +397,42 @@
     float: left;
     margin-left: 5%;
     margin-top: 5px;
-
 }
-
-
-
-
-
-
-
+.project3 {
+    width: 131%;
+    display: inline-block;
+    margin-top: 25px;
+    margin: 25px 0;
+}
+.project3Title {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 20px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.project3Desc {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 16px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    width: 50%;
+    float: left;
+}
+.project3Image {
+    height: 250px;
+    width: 464px;
+    background: url(../images/giphy.png);
+    background-size: cover;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5px;
+}
 
 
 /* body {
@@ -371,7 +450,7 @@
     display: block;
     width: 58px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
 }
@@ -458,7 +537,7 @@
 /* Links */
 .links {
     text-align: center;
-    top: 80%  !important;
+    top: 86%  !important;
 }
 /* End Navbar */
 
