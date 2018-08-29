@@ -1,6 +1,6 @@
 /* Body Background */
 #home-bg {
-    background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, .9)), url("../images/back3.jpg");
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, .9)), url("../images/sky2.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -262,8 +262,10 @@
 .skillsContainer {
     top: 5%;
     left: 10%;
-    height: 70%;
     position: absolute;
+}
+.skillsContent {
+    display: inline-block;
 }
 .skills {
     font-family: 'Rubik', sans-serif;
@@ -294,6 +296,31 @@
     margin-top: 50px;
 }
 
+
+.skillsContent2 {
+    display: inline-block;
+}
+.skillsText2 {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 20px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+}
+.skillsListLeft2 {
+    float: left;
+    width: 45%;
+    font-weight: normal !important;
+    margin-top: 50px;
+}
+.skillsListRight2 {
+    float: left;
+    width: 45%;
+    font-weight: normal !important;
+    margin-left: 6px;
+    margin-top: 50px;
+}
 
 
 
