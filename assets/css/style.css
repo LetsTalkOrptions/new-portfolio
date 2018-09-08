@@ -57,15 +57,20 @@
     margin-top: 9%;
 }
 .pageImage {
-    margin: 57% 0;
-    width: 100%;
-    height: 45%;
+    margin: 57% 10% 57% 7%;
+    width: 80%;
+    height: 0;
     float: left;
     position: initial;
     right: 0;
     top: 0;
+    background: url(../images/colorMe.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: solid 1px #00ffea;
+    padding-bottom: 80%;
 }
-.profilePic {
+/* .profilePic {
     height: 100%;
     width: 100%;
     margin: auto;
@@ -73,7 +78,7 @@
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
-}
+} */
 .pageHomeRight {
     text-align: left;
     /* width: 33%; */
@@ -137,37 +142,37 @@
 }
 /* Left side words */
 .char0 {
-    margin-left: 6%;
     margin-bottom: 35px;
+    left: 4%;
 }
 .char7 {
-    margin-left: 14%;
     margin-bottom: 35px;
+    left: 12%;
 }
 .char9 {
-    margin-left: 22%;
     margin-bottom: 35px;
+    left: 20%;
 }
 .char11 {
-    margin-left: 30%;
     margin-bottom: 35px;
+    left: 28%;
 }
 /* Right side Words */
 .char21 {
-    margin-left: 20%;
     margin-bottom: 35px;
+    left: 17%;
 }
 .char23 {
-    margin-left: 28%;
     margin-bottom: 35px;
+    left: 25%;
 }
 .char27 {
-    margin-left: 36%;
     margin-bottom: 35px;
+    left: 33%;
 }
 .char29 {
-    margin-left: 44%;
     margin-bottom: 35px;
+    left: 41%;
 }
 /* Contact page */
 .contactContainer {
@@ -674,6 +679,8 @@
     }
     .contactMe {
         margin-top: 40px;
+        width: 81%;
+        margin: 40px auto 0 auto;
     }
     .nav ul {
         margin: 4px 0 0 0;
@@ -755,12 +762,6 @@
         width: 100%;
         left: 0;
     }
-    .contactMe {
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
     .contactText {
         width: 81%;
         display: block;
@@ -817,7 +818,128 @@
     }
 }
 
+/* Navbar move to top below 600px */
+@media only screen and (max-width: 600px) {
 
+    .contactContainer {
+        width:100%;
+        left: 6% !important;
+    }
+    .contactText {
+        width: 90%;
+    }
+    .form-control {
+        width: 73%;
+    }
+    #submitButton {
+        margin: auto;
+    }
+    #contactForm { 
+        margin-top: 20px;
+    }
+    .nav {
+        width: 100%;
+        height: 8%;
+        z-index: 10;
+        position: fixed !important;
+    }
+    .nav .home {
+        margin-left: 15%;
+    }
+
+    #siteLogo {
+        width: 33px;
+        height: 63px;
+        padding-left: 4px;
+    }
+    .nav li {
+        float: left;
+        width: 10%;
+        height: 50px;
+        padding: 0 6% 0 0;
+    }
+    .nav a {
+        width: 100%;
+    }
+    .contactMe {
+        margin-top: 40px;
+        width: 81%;
+        margin: 40px auto 0 auto;
+    }
+    .nav ul {
+        margin: 4px 0 0 0;
+        padding: 0;
+        top: 0%;
+        position: absolute;
+        float: left;
+        height: 90%;
+        width: 100%;
+    }
+    .links {
+        right: 11%;
+        top: 0 !important;
+        margin: 4px 0 0 0 !important;
+    }
+    .gitHub {
+        display: none !important;
+    }
+    .linkedIn {
+        display: none !important;
+    }
+}
+
+/* index page resize below 600px */
+@media only screen and (max-width: 600px) {
+    .centerPage {
+        top: 5%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 93%;
+        display: block;
+        grid-template-columns: 0;
+    }
+    .pageHomeLeft {
+        text-align: center;
+        width: 100%;
+        height: 27%;
+        float: left;
+        margin-top: 16%;
+        display: inline-block;
+    }
+    .pageImage {
+        margin: 8% 15%;
+        width: 70%;
+        height: 0;
+        float: left;
+        position: initial;
+        right: 0;
+        top: 0;
+        background: url(../images/colorMe.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        padding-bottom: 70%;
+        display: inline-block;
+    }
+    .pageHomeRight {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .char {
+        margin-bottom: 20px;
+        position: inherit;
+        left: 0;
+        height: 27%;
+    }
+
+
+}
+
+
+/* Skills and contact page resize */
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
      /* Skills Page */
     .mySkills {
@@ -855,12 +977,27 @@
         margin-top: 0;
     }
     /* Contact Page */
+    .contactContainer {
+        left: 12%;
+        top: 5%;
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        margin: auto;
+    }
     .contactMe {
         text-align: center;
     }
     .contactText {
+        margin: auto;
         width: 100%;
         text-align: center;
+        left: 13%;
+        padding-left: 13px;
+    }
+    #contactForm {
+        margin: auto;
+        width: 90%;
     }
     .form-control {
         width: 100%;
@@ -875,6 +1012,7 @@
     .contentContainer {
         position: absolute;
         display: inline-block;
+        margin-top: 10%;
     }
     .aboutContainer {
         width: 88%;
@@ -1103,7 +1241,7 @@
         }
     }
 
-    @media only screen and (min-width: 845px) and (max-width: 1050px) {
+    /* @media only screen and (min-width: 845px) and (max-width: 1050px) {
         .centerPage {
             top: 5%;
             left: 8%;
@@ -1112,14 +1250,14 @@
             height: 93%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-        }
-        .pageHomeLeft {
+        } 
+         .pageHomeLeft {
             text-align: left;
             width: 100%;
             height: 100%;
             float: left;
             margin-top: 91%;
-        }
+        } 
         .pageImage {
             margin: 72% 0;
             width: 100%;
@@ -1128,7 +1266,7 @@
             position: initial;
             right: 0;
             top: 0;
-        }
+        } 
         .profilePic {
             height: 100%;
             width: 100%;
@@ -1137,12 +1275,100 @@
             background-size: cover;
             border-radius: 50%;
             border: solid 1px #00ffea;
-        }
+        } 
         .pageHomeRight {
             text-align: right;
-            /* width: 33%; */
+            width: 33%;
             float: left;
             margin-top: 91%;
             height: 100%;
+        } 
+    } */
+
+
+    @media only screen and (min-width: 845px) and (max-width: 1260px) {
+        .pageImage {
+            margin: 57% 10% 57% 15%;
         }
     }
+
+    @media only screen and (min-width: 600px) and (max-width: 1050px) {
+        .centerPage {
+            top: 5%;
+            left: 8%;
+            position: absolute;
+            width: 90%;
+            height: 93%;
+            display: block;
+            grid-template-columns: 0;
+        }
+        .pageHomeLeft {
+            text-align: center;
+            width: 100%;
+            height: 15%;
+            float: left;
+            margin-top: 0;
+        }
+        .char {
+            margin-bottom: 20px;
+            position: inherit;
+            left: 0;
+        }
+        /* .char0 {
+            margin-bottom: 20px;
+            position: inherit;
+            left: 0;
+        }
+        .char7 {
+            margin-bottom: 20px;
+        }
+        .char9 {
+            margin-bottom: 20px;
+        }
+        .char11 {
+            margin-bottom: 20px;
+        } */
+        .pageImage {
+            margin: 20% 18%;
+            width: 60%;
+            height: 0;
+            float: left;
+            position: initial;
+            right: 0;
+            top: 0;
+            background: url(../images/colorMe.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            border: solid 1px #00ffea;
+            padding-bottom: 60%;
+        }
+        .pageHomeRight {
+            text-align: center;
+            float: left;
+            width: 100%;
+            margin-top: -13%;
+        }
+        .char21 {
+            margin-bottom: 20px;
+        }
+        .char23 {
+            margin-bottom: 20px;
+        }
+        .char27 {
+            margin-bottom: 20px;
+        }
+        .char29 {
+            margin-bottom: 20px;
+        }
+
+
+
+
+
+
+
+    }
+
+
+
+
