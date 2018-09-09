@@ -396,8 +396,8 @@
 /* Projects Page */
 .projectHeaderContainer {
     top: 5%;
-    left: 10%;
-    width: 85%;
+    left: 9%;
+    width: 90%;
     height: 34%;
     position: absolute;
 }
@@ -419,12 +419,22 @@
 }
 .projectContentContainer {
     height: 60%;
-    width: 85%;
+    width: 100%;
 }
 .project1 {
-    width: 131%;
+    width: 100%;
     display: inline-block;
     margin-bottom: 25px;
+}
+.project1Desc {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 16px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    width: 95%;
+    float: left;
 }
 .project1Title {
     font-family: 'Rubik', sans-serif;
@@ -436,30 +446,19 @@
     margin: 0;
     padding: 0;
 }
-.project1Desc {
-    font-family: 'Rubik', sans-serif;
-    color: #00ffea;
-    font-size: 16px;
-    padding-bottom: 3%;
-    letter-spacing: 1.4px;
-    line-height: 1.6;
-    width: 50%;
-    float: left;
-}
 .project1Image {
-    height: 250px;
-    width: 464px;
+    width: 95%;
     background: url(../images/screen.png);
     background-size: cover;
     float: left;
-    margin-left: 5%;
     margin-top: 5px;
+    padding-bottom: 47%;
 
 }
 .project2 {
-    width: 131%;
+    width: 100%;
     display: inline-block;
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 .project2Title {
     font-family: 'Rubik', sans-serif;
@@ -471,6 +470,14 @@
     margin: 0;
     padding: 0;
 }
+.project2Image {
+    width: 95%;
+    background: url(../images/train.png);
+    background-size: cover;
+    float: left;
+    margin-top: 5px;
+    padding-bottom: 47%;
+}
 .project2Desc {
     font-family: 'Rubik', sans-serif;
     color: #00ffea;
@@ -478,23 +485,13 @@
     padding-bottom: 3%;
     letter-spacing: 1.4px;
     line-height: 1.6;
-    width: 50%;
+    width: 95%;
     float: left;
-}
-.project2Image {
-    height: 250px;
-    width: 464px;
-    background: url(../images/train.png);
-    background-size: cover;
-    float: left;
-    margin-left: 5%;
-    margin-top: 5px;
 }
 .project3 {
-    width: 131%;
+    width: 100%;
     display: inline-block;
-    margin-top: 25px;
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 .project3Title {
     font-family: 'Rubik', sans-serif;
@@ -513,17 +510,16 @@
     padding-bottom: 3%;
     letter-spacing: 1.4px;
     line-height: 1.6;
-    width: 50%;
+    width: 95%;
     float: left;
 }
 .project3Image {
-    height: 250px;
-    width: 464px;
+    width: 95%;
     background: url(../images/giphy.png);
     background-size: cover;
     float: left;
-    margin-left: 5%;
     margin-top: 5px;
+    padding-bottom: 47%;
 }
 
 
@@ -933,6 +929,12 @@
         position: inherit;
         left: 0;
         height: 27%;
+    }
+    .projectsTitle {
+        margin-top: 10%;
+    }
+    .projectHeaderContainer {
+        left: 7%;
     }
 
 
