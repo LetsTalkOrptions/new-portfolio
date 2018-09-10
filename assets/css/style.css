@@ -86,38 +86,6 @@
     margin-top: 90%;
     height: 100%;
 }
-/* .pageImage {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    right: 36%;
-    top: 17%;
-}
-.profilePic {
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    background: url("../images/colorMe.jpg");
-    background-size: cover;
-    border-radius: 50%;
-    border: solid 1px #00ffea;
-} */
-/* Page content */
-/* .centerPage {
-    top: 3%;
-    left: 8%;
-    position: absolute;
-    width: 88%;
-    height: 93%;
-}
-.pageHomeLeft {
-    text-align: left;
-}
-
-.pageHomeRight {
-    text-align: right;
-} */
-/* Welcome to My Portfolio */
 .char0, .char1, .char2, .char3, .char4, .char5, .char6, .char7, .char8, .char9, .char10, .char11, .char12, .char13, .char14, .char15, .char16, .char17, .char18, .char19, .char20 {
     position: relative;
     display: inline-block;
@@ -396,13 +364,6 @@
     margin-left: 6px;
     margin-top: 50px;
 }
-
-
-
-
-
-
-
 /* Projects Page */
 .projectHeaderContainer {
     top: 5%;
@@ -531,17 +492,6 @@
     margin-top: 5px;
     padding-bottom: 47%;
 }
-
-
-/* body {
-    z-index: 1;
-    height: 100%;
-   width: 100%;
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   background: rgba(0, 0, 0, 0.7);  
-} */
 /* Navbar styling */
 .nav {
     background-color: rgb(10, 10, 10);
@@ -576,10 +526,8 @@
 .nav li {
     font-size:12pt;
     display:block;
-    /* float: left; */
     height:60px;
     width:55px;
-    /* text-align: center; */
     transition: all 0.2s ease-in-out;
     text-align: center;
 }
@@ -633,7 +581,6 @@
 .nav a:hover b {
     display: block;
 }
-
 /* Links */
 .links {
     text-align: center;
@@ -769,17 +716,6 @@
         margin-top: 8%;
         height: auto;
     }
-    /* #aboutImage1 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 0;
-        float: left;
-        position: relative;
-        margin-right: 3%;
-    } */
     #aboutMePic1 {
         height: auto;
         width: 100%;
@@ -792,16 +728,6 @@
         padding-bottom: 100%;
         margin-right: 2%;
     }
-    /* #aboutImage2 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 3%;
-        float: left;
-        position: relative;
-    } */
     #aboutMePic2 {
         height: auto;
         width: 100%;
@@ -813,17 +739,6 @@
         display: block;
         padding-bottom: 100%;
     }
-    /* #aboutImage3 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 48%;
-        float: left;
-        position: relative;
-        padding-right: 3%;
-    } */
     #aboutMePic3 {
         height: auto;
         width: 100%;
@@ -835,16 +750,6 @@
         display: block;
         padding-bottom: 100%;
     }
-    /* #aboutImage4 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 48%;
-        float: left;
-        position: relative;
-    }  */
     #aboutMePic4 {
         height: auto;
         width: 100%;
@@ -907,7 +812,6 @@
         position: relative;
         margin-bottom: 5%;
     }
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -924,13 +828,57 @@
     #submitButton {
         margin: auto;
     }
+    .skillsContainer {
+        top: 5%;
+        left: 6%;
+        position: absolute;
+    }
+    .mySkills {
+        margin-top: 10%;
+    }
+    .skillsText {
+        font-family: 'Rubik', sans-serif;
+        color: #00ffea;
+        font-size: 20px;
+        padding-bottom: 3%;
+        letter-spacing: 1.4px;
+        line-height: 1.6;
+    }
+    .skillsListLeft {
+        float: left;
+        width: 82%;
+        font-weight: normal !important;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .skillsListRight {
+        float: left;
+        width: 82%;
+        font-weight: normal !important;
+        /* margin-left: 6px; */
+        margin-top: 0;
+    }
+    .skillsListLeft2 {
+        float: left;
+        width: 82%;
+        font-weight: normal !important;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .skillsListRight2 {
+        float: left;
+        width: 82%;
+        font-weight: normal !important;
+        /* margin-left: 6px; */
+        margin-top: 0;
+    }
 }
 
 /* Skills and contact page resize */
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
      /* Skills Page */
     .mySkills {
-        /* margin-top: 40px; */
+        margin-top: 10%;
     }
     .skillsText {
         width: 92%;
@@ -1017,58 +965,16 @@
         letter-spacing: 1.4px;
         line-height: 1.6;
     }
-    /* .aboutImages {
-        top: 91%;
-        width: 88%;
-        left: 10%;
-        margin-top: 70px;
-    }
-    #aboutImage1 {
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 68px;
-        float: left;
-        position:relative;
-    }
-    #aboutImage2 {
-        float: right;
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 68px;
-        position:relative;
-        padding-right: 0;
-    }
-    #aboutImage3 {
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 28px;
-        float: left;
-        position:relative;
-        padding-left:0;
-        padding-right: 0;
-    }
-    #aboutImage4 {
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 28px;
-        float: right;
-        position:relative;
-    } */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 859px) {
+    .projectHeaderContainer {
+        top: 5%;
+        left: 11%;
+        width: 90%;
+        height: 34%;
+        position: absolute;
+    }
     .contentContainer {
         position: absolute;
         display: inline-block;
@@ -1139,15 +1045,6 @@
         float: right;
         position:relative;
     }
-
-
-
-
-
-
-
-
-
     .aboutContainer {
         width: 88%;
         height: 100%;
