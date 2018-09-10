@@ -244,6 +244,16 @@
     letter-spacing: 1.4px;
     line-height: 1.6;
 }
+#signature {
+    background: url(../images/tealSig.png);
+    z-index: 10;
+    width: 53%;
+    /* height: 10%; */
+    background-size: contain;
+    padding-bottom: 23%;
+    margin-left: 46%;
+    margin-top: 2%;
+}
 .aboutImages {
     top: 5%;
     right: 0;
@@ -1020,7 +1030,7 @@
         width: 88%;
         height: 100%;
         position: initial;
-        margin-left: 11%;
+        margin-left: 5%;
         margin-top: 4%;
     }
     .aboutText {
@@ -1039,7 +1049,7 @@
         /* height: 100%; */
         /* position: absolute; */
         left: 10%;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     #aboutImage1 {
         width: 40vw;
