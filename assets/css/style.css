@@ -1,6 +1,6 @@
 /* Body Background */
 #home-bg {
-    background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, .9)), url("../images/back7.jpg");
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, .9)), url("../images/back7Tiny.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     background-attachment: fixed; 
 }
 #contact-bg {
-    background: linear-gradient(10deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, .6)), url("../images/coffee2.jpg");
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.3),rgba(0, 0, 0, .6)), url("../images/coffee2Tiny.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     background-attachment: fixed; 
 }
 #about-bg {
-    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/road1.jpg");
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/road1Tiny.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     background-attachment: fixed; 
 }
 #projects-bg {
-    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/sky.jpg");
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/skyTiny.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
     background-attachment: fixed;
 }
 #skills-bg {
-    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/sky2.jpg");
+    background: linear-gradient(10deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, .5)), url("../images/sky2Tiny.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
     position: initial;
     right: 0;
     top: 0;
-    background: url(../images/colorMe.jpg);
+    background: url(../images/colorMeTiny.jpg);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
@@ -223,7 +223,7 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(../images/tiger.jpeg);
+    background: url(../images/tigerTiny.jpeg);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
@@ -241,7 +241,7 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(../images/golf.JPG);
+    background: url(../images/golfTiny.JPG);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
@@ -261,7 +261,7 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(../images/china.jpg);
+    background: url(../images/chinaTiny.jpg);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
@@ -279,7 +279,7 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(../images/lambo.jpg);
+    background: url(../images/lamboTiny.jpg);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
@@ -407,7 +407,7 @@
 }
 .project1Image {
     width: 95%;
-    background: url(../images/screen.png);
+    background: url(../images/screenTiny.png);
     background-size: cover;
     float: left;
     margin-top: 5px;
@@ -431,7 +431,7 @@
 }
 .project2Image {
     width: 95%;
-    background: url(../images/train.png);
+    background: url(../images/trainTiny.png);
     background-size: cover;
     float: left;
     margin-top: 5px;
@@ -474,7 +474,7 @@
 }
 .project3Image {
     width: 95%;
-    background: url(../images/giphy.png);
+    background: url(../images/giphyTiny.png);
     background-size: cover;
     float: left;
     margin-top: 5px;
