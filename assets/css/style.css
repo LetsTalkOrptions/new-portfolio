@@ -71,8 +71,28 @@
     background: url(../images/colorMeTiny.jpg);
     background-size: cover;
     border-radius: 50%;
-    border: solid 1px #00ffea;
+    border: solid 1px #00ffea !important;
     padding-bottom: 80%;
+    /* opacity: 0;
+    -webkit-animation: type2 3s steps(50) 1;
+    animation: type2 2s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+*/
+    opacity: 0;
+    animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+    visibility: visible !important;	
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 .pageHomeRight {
     text-align: left;
@@ -80,62 +100,221 @@
     margin-top: 90%;
     height: 24%;
 }
-.char0, .char1, .char2, .char3, .char4, .char5, .char6, .char7, .char8, .char9, .char10, .char11, .char12, .char13, .char14, .char15, .char16, .char17, .char18, .char19, .char20 {
+.char {
     position: relative;
     display: inline-block;
     visibility: inherit;
     text-transform: uppercase;
-    text-align: left;
     letter-spacing: 4px;
     font-size: 35px;
     font-family: 'Rubik', sans-serif;
     color: #00ffea;
+    margin-bottom: 35px;
+    white-space: nowrap;
+    overflow: hidden;
 }
-.char21, .char22, .char23, .char24, .char25, .char26, .char27, .char28, .char29, .char30, .char31, .char32, .char33, .char34 {
-    position: relative;
-    display: inline-block;
-    visibility: inherit;
-    text-transform: uppercase;
-    text-align: right;
-    letter-spacing: 4px;
-    font-size: 35px;
-    font-family: 'Rubik', sans-serif;
-    color: #00ffea;
+.char0, .char7, .char9, .char11 {
+    text-align: left;
+}
+.char21, .char23, .char27, .char29 {
+    text-align: left;
 }
 /* Left side words */
 .char0 {
-    margin-bottom: 35px;
     left: 4%;
+    opacity: 0;
+    -webkit-animation: type 3s steps(50) 1;
+    animation: type 2s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
 }
 .char7 {
-    margin-bottom: 35px;
     left: 12%;
+    opacity: 0;
+    -webkit-animation: type 2s steps(50) 1;
+    animation: type 2s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
 }
 .char9 {
-    margin-bottom: 35px;
     left: 20%;
+    opacity: 0;
+    -webkit-animation: type 2s steps(50) 1;
+    animation: type 2s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
 }
 .char11 {
-    margin-bottom: 35px;
     left: 28%;
+    opacity: 0;
+    -webkit-animation: type 3s steps(50) 1;
+    animation: type 3s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
 }
 /* Right side Words */
 .char21 {
-    margin-bottom: 35px;
     left: 17%;
+    opacity: 0;
+    -webkit-animation: type 3s steps(50) 1;
+    animation: type 3s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
 }
 .char23 {
-    margin-bottom: 35px;
     left: 25%;
+    opacity: 0;
+    -webkit-animation: type 2s steps(50) 1;
+    animation: type 2s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
 }
 .char27 {
-    margin-bottom: 35px;
     left: 33%;
+    opacity: 0;
+    -webkit-animation: type 2s steps(50) 1;
+    animation: type 2s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
 }
 .char29 {
-    margin-bottom: 35px;
     left: 41%;
+    opacity: 0;
+    -webkit-animation: type 3s steps(50) 1;
+    animation: type 3s steps(50) 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
 }
+/* TypeWriter Animation Keyframes */
+@keyframes type {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    99.9% {
+        border-right: .15em #00ffea;
+        opacity: 1;
+    }
+    100% {
+        border: none;
+        width: 100%;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    99.9% {
+        border-right: .15em #00ffea;
+        opacity: 1;
+    }
+    100% {
+        border: none;
+        width: 100%;
+        opacity: 1;
+    }
+}
+@keyframes type2 {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    99.9% {
+        border-right: .15em #00ffea;
+        opacity: 1;
+    }
+    100% {
+
+        opacity: 1;
+    }
+}
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    99.9% {
+        border-right: .15em #00ffea;
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Slide Down Animation For Profile Image */
+
+@keyframes slideDown {
+	0% {
+        transform: translateY(-100%);
+        opacity: 0;
+	}
+	50%{
+        transform: translateY(8%);
+        opacity: 1;
+	}
+	65%{
+        transform: translateY(-4%);
+        opacity: 1;
+	}
+	80%{
+        transform: translateY(4%);
+        opacity: 1;
+	}
+	95%{
+        transform: translateY(-2%);
+        opacity: 1;
+	}			
+	100% {
+        transform: translateY(0%);
+        opacity: 1;
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+        -webkit-transform: translateY(-100%);
+        opacity: 0;
+	}
+	50%{
+        -webkit-transform: translateY(8%);
+        opacity: 1;
+	}
+	65%{
+        -webkit-transform: translateY(-4%);
+        opacity: 1;
+	}
+	80%{
+        -webkit-transform: translateY(4%);
+        opacity: 1;
+	}
+	95%{
+        -webkit-transform: translateY(-2%);
+        opacity: 1;
+	}			
+	100% {
+        -webkit-transform: translateY(0%);
+        opacity: 1;
+	}	
+}
+
 /* Contact page */
 .contactContainer {
     left: 10%;
@@ -694,6 +873,7 @@
         position: inherit;
         left: 0;
         height: 27%;
+        text-align: center;
     }
     .projectsTitle {
         margin-top: 10%;
@@ -1333,6 +1513,7 @@
             margin-bottom: 20px;
             position: inherit;
             left: 0;
+            text-align: center;
         }
         .pageImage {
             margin: 9% 18%;
