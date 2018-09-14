@@ -46,7 +46,7 @@
 /* Profile Image on Home Page */
 .centerPage {
     top: 5%;
-    left: 8%;
+    left: 5%;
     position: absolute;
     width: 90%;
     height: 93%;
@@ -121,7 +121,7 @@
 }
 /* Left side words */
 .char0 {
-    left: 4%;
+    left: 10%;
     opacity: 0;
     -webkit-animation: type 3s steps(50) 1;
     animation: type 2s steps(50) 1;
@@ -131,7 +131,7 @@
     -webkit-animation-delay: .5s;
 }
 .char7 {
-    left: 12%;
+    left: 18%;
     opacity: 0;
     -webkit-animation: type 2s steps(50) 1;
     animation: type 2s steps(50) 1;
@@ -141,7 +141,7 @@
     -webkit-animation-delay: 3.5s;
 }
 .char9 {
-    left: 20%;
+    left: 26%;
     opacity: 0;
     -webkit-animation: type 2s steps(50) 1;
     animation: type 2s steps(50) 1;
@@ -151,7 +151,7 @@
     -webkit-animation-delay: 2.5s;
 }
 .char11 {
-    left: 28%;
+    left: 34%;
     opacity: 0;
     -webkit-animation: type 3s steps(50) 1;
     animation: type 3s steps(50) 1;
@@ -1438,7 +1438,8 @@
         top: 71%;
     }
 }
-    @media only screen and (min-width: 1151px) and (max-width: 1325px) {
+
+@media only screen and (min-width: 1151px) and (max-width: 1325px) {
         #aboutImage1 {
             width: 25vw;
             height: 32vh;
@@ -1475,13 +1476,13 @@
         }
     }
 
-    @media only screen and (min-width: 845px) and (max-width: 1260px) {
+@media only screen and (min-width: 845px) and (max-width: 1260px) {
         .pageImage {
             margin: 57% 10% 57% 15%;
         }
     }
 
-    @media only screen and (min-width: 600px) and (max-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
         .contactContainer {
             left: 12%;
             top: 5%;
@@ -1492,7 +1493,7 @@
         }
     }
 
-    @media only screen and (min-width: 600px) and (max-width: 1050px) {
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
         .centerPage {
             top: 5%;
             left: 8%;
