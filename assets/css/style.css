@@ -707,6 +707,39 @@
     margin-top: 5px;
     padding-bottom: 47%;
 }
+.project4 {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.project4Title {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 20px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.project4Desc {
+    font-family: 'Rubik', sans-serif;
+    color: #00ffea;
+    font-size: 16px;
+    padding-bottom: 3%;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    width: 95%;
+    float: left;
+}
+.project4Image {
+    width: 95%;
+    background: url(../images/triviaTiny.png);
+    background-size: cover;
+    float: left;
+    margin-top: 5px;
+    padding-bottom: 47%;
+}
 /* Navbar styling */
 .nav {
     background-color: rgb(10, 10, 10);
