@@ -73,26 +73,34 @@
     border-radius: 50%;
     border: solid 1px #00ffea !important;
     padding-bottom: 80%;
-    /* opacity: 0;
-    -webkit-animation: type2 3s steps(50) 1;
-    animation: type2 2s steps(50) 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 4s;
-    -webkit-animation-delay: 4s;
-*/
+   
+    /* Slide Down Effect */
     opacity: 0;
     animation-name: slideDown;
 	-webkit-animation-name: slideDown;	
 	animation-duration: 2s;	
 	-webkit-animation-duration: 2s;
 	animation-timing-function: ease;	
-	-webkit-animation-timing-function: ease;	
+    -webkit-animation-timing-function: ease;
     visibility: visible !important;	
     animation-delay: 3.5s;
     -webkit-animation-delay: 3.5s;
     -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
+
+    /* Fade In Effect */
+    /* opacity: 0;
+    animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;	
+    visibility: visible !important;	
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 .pageHomeRight {
     text-align: left;
@@ -260,6 +268,42 @@
     }
 }
 /* Slide Down Animation For Profile Image */
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(1.1);	
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
 
 @keyframes slideDown {
 	0% {
@@ -855,7 +899,7 @@
         position: initial;
         right: 0;
         top: 0;
-        background: url(../images/colorMe.jpg);
+        background: url(../images/colorMeTiny.jpg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -892,7 +936,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/tiger.jpeg);
+        background: url(../images/tigerTiny.jpeg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -904,7 +948,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/golf.JPG);
+        background: url(../images/golfTiny.JPG);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -915,7 +959,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/china.JPG);
+        background: url(../images/chinaTiny.JPG);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -926,7 +970,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/lambo.jpg);
+        background: url(../images/lamboTiny.jpg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1244,7 +1288,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/tiger.jpeg);
+        background: url(../images/tigerTiny.jpeg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1266,7 +1310,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/golf.JPG);
+        background: url(../images/golfTiny.JPG);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1288,7 +1332,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/china.JPG);
+        background: url(../images/chinaTiny.JPG);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1309,7 +1353,7 @@
         height: auto;
         width: 100%;
         margin: auto;
-        background: url(../images/lambo.jpg);
+        background: url(../images/lamboTiny.jpg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1330,7 +1374,7 @@
         height: 100%;
         width: 100%;
         margin: auto;
-        background: url(../images/tiger.jpeg);
+        background: url(../images/tigerTiny.jpeg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1348,7 +1392,7 @@
         height: 100%;
         width: 100%;
         margin: auto;
-        background: url(../images/golf.JPG);
+        background: url(../images/golfTiny.JPG);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1369,7 +1413,7 @@
         height: 100%;
         width: 100%;
         margin: auto;
-        background: url(../images/china.jpg);
+        background: url(../images/chinaTiny.JPG);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1388,7 +1432,7 @@
         height: 100%;
         width: 100%;
         margin: auto;
-        background: url(../images/lambo.jpg);
+        background: url(../images/lamboTiny.jpg);
         background-size: cover;
         border-radius: 50%;
         border: solid 1px #00ffea;
@@ -1524,7 +1568,7 @@
             position: initial;
             right: 0;
             top: 0;
-            background: url(../images/colorMe.jpg);
+            background: url(../images/colorMeTiny.jpg);
             background-size: cover;
             border-radius: 50%;
             border: solid 1px #00ffea;
