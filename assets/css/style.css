@@ -818,10 +818,8 @@
 }
 
 
-/* Media Queries */
+/* -------------------- Media Queries -------------------- */
 
-
-/* Navbar move to top below 600px */
 
 @media only screen and (min-width: 300px) and (max-width: 459px) {
     .aboutImages {
@@ -885,7 +883,6 @@
     }
 }
 @media only screen and (max-width: 600px) {
-
     .contactContainer {
         width: 83%;
         left: 6% !important;
@@ -1005,51 +1002,6 @@
     .aboutImages {
         display: none;
     }
-    /* #aboutMePic1 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/tigerTiny.jpeg);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-        margin-right: 2%;
-    }
-    #aboutMePic2 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/golfTiny.JPG);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-    }
-    #aboutMePic3 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/chinaTiny.JPG);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-    }
-    #aboutMePic4 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/lamboTiny.jpg);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-    } */
     .aboutContainer {
         width: 90%;
         left: 5%;
@@ -1057,52 +1009,7 @@
     .aboutText {
         width: 100%;
     }
-    /* #aboutImage1 {
-        width: 92%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 0;
-        float: left;
-        position: relative;
-        margin-bottom: 5%;
-    }
-    #aboutImage2 {
-        width: 92%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 0;
-        float: left;
-        position: relative;
-        margin-bottom: 5%;
-    }
-    #aboutImage3 {
-        width: 92%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 0;
-        float: left;
-        position: relative;
-        margin-bottom: 5%;
-    }
-    #aboutImage4 {
-        width: 92%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 0;
-        float: left;
-        position: relative;
-        margin-bottom: 5%;
-    } */
 }
-
 @media only screen and (max-width: 400px) {
     .contactContainer {
         width:100%;
@@ -1165,7 +1072,6 @@
         top: 10%;
     }
 }
-
 /* Skills and contact page resize */
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
      /* Skills Page */
@@ -1226,7 +1132,6 @@
         margin: auto;
     }
 }
-
 @media only screen and (min-width: 400px) and (max-width: 859px) {
     .contentContainer {
         position: absolute;
@@ -1250,7 +1155,6 @@
         line-height: 1.6;
     }
 }
-
 @media only screen and (min-width: 600px) and (max-width: 859px) {
     .projectHeaderContainer {
         top: 5%;
@@ -1298,8 +1202,6 @@
         height: auto;
     }
 }
-
-
 @media only screen and (min-width: 460px) and (max-width: 859px) {  
     .aboutImages {
         top: 91%;
@@ -1364,139 +1266,7 @@
         display: block;
         position: inherit;
     }
-    /* #aboutImage1 {
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 68px;
-        float: left;
-        position:relative;
-    }
-    #aboutImage2 {
-        float: right;
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 68px;
-        position:relative;
-        padding-right: 0;
-    }
-    #aboutImage3 {
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 28px;
-        float: left;
-        position:relative;
-        padding-left:0;
-        padding-right: 0;
-    }
-    #aboutImage4 {
-        width: 40vw;
-        height: 35vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 28px;
-        float: right;
-        position:relative;
-    } */
-    
-    /* #aboutImage1 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 0;
-        float: left;
-        position: relative;
-        margin-right: 3%;
-    }
-    #aboutMePic1 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/tigerTiny.jpeg);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-        margin-right: 2%;
-    }
-    #aboutImage2 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 3%;
-        float: left;
-        position: relative;
-    }
-    #aboutMePic2 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/golfTiny.JPG);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-    }
-    #aboutImage3 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 48%;
-        float: left;
-        position: relative;
-        padding-right: 3%;
-    }
-    #aboutMePic3 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/chinaTiny.JPG);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-    }
-    #aboutImage4 {
-        width: 48%;
-        height: inherit;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 48%;
-        float: left;
-        position: relative;
-    } 
-    #aboutMePic4 {
-        height: auto;
-        width: 100%;
-        margin: auto;
-        background: url(../images/lamboTiny.jpg);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-        padding-bottom: 100%;
-    } */
 }
-
 @media only screen and (min-width: 860px) and (max-width: 1300px) {
     .aboutImages {
         top: 5%;
@@ -1521,229 +1291,79 @@
         width: 48%;
         padding-bottom: 48%;
     }
-    /* #aboutMePic1 {
-        height: 100%;
-        width: 100%;
-        margin: auto;
-        background: url(../images/tigerTiny.jpeg);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-    }
-    #aboutImage1 {
-        width: 29vw;
-        height: 28vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 28px;
-    }
-    #aboutMePic2 {
-        height: 100%;
-        width: 100%;
-        margin: auto;
-        background: url(../images/golfTiny.JPG);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        display: block;
-    }
-    #aboutImage2 {
-        right: 0;
-        width: 22vw;
-        height: 24vh;
-        position: fixed;
-        top: 24%;
-        display: block;
-        float: right;
-        padding-right: 5px;
-        padding-top: 36px;
-    }
-    #aboutMePic3 {
-        height: 100%;
-        width: 100%;
-        margin: auto;
-        background: url(../images/chinaTiny.JPG);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-        margin-right: 9px;
-    }
-    #aboutImage3 {
-        width: 24vw;
-        height: 27vh;
-        right: 0%;
-        top: 63%;
-        padding-right: 8px;
-        padding-left: 0px;
-        padding-top: 63px;
-    }
-    #aboutMePic4 {
-        height: 100%;
-        width: 100%;
-        margin: auto;
-        background: url(../images/lamboTiny.jpg);
-        background-size: cover;
-        border-radius: 50%;
-        border: solid 1px #00ffea;
-    }
-    #aboutImage4 {
-        width: 25vw;
-        height: 25vh;
-        position: fixed;
-        right: 3%;
-        top: 68%;
-    } */
+
 }
-
-@media only screen and (min-width: 1061px) and (max-width: 1150px) {
-    /* #aboutImage1 {
-        width: 25vw;
-        height: 29vh;
-        right: 0%;
-        top: 4%;
-        display: block;
-        padding-bottom: 28px;
-    }
-    #aboutImage2 {
-        right: 0;
-        width: 22vw;
-        height: 27vh;
-        position: fixed;
-        top: 27%;
-        display: block;
-        float: right;
-        padding-right: 10px;
-    }
-    #aboutImage3 {
-        width: 25vw;
-        height: 29vh;
-        right: 0%;
-        top: 63%;
-        padding-right: 20px;
-        padding-left: 2px;
-        padding-top: 81px;
-    }
-    #aboutImage4 {
-        width: 22vw;
-        height: 27vh;
-        position: fixed;
-        right: 3%;
-        top: 71%;
-    } */
-}
-
-@media only screen and (min-width: 1151px) and (max-width: 1325px) {
-        /* #aboutImage1 {
-            width: 25vw;
-            height: 32vh;
-            right: 0%;
-            top: 4%;
-            display: block;
-            padding-bottom: 28px;
-        }
-        #aboutImage2 {
-            right: 0;
-            width: 22vw;
-            height: 28vh;
-            position: fixed;
-            top: 27%;
-            display: block;
-            float: right;
-            padding-right: 10px;
-        }
-        #aboutImage3 {
-            width: 23vw;
-            height: 31vh;
-            right: 0%;
-            top: 61%;
-            padding-right: 20px;
-            padding-left: 2px;
-            padding-top: 38px;
-        }
-        #aboutImage4 {
-            width: 22vw;
-            height: 28vh;
-            position: fixed;
-            right: 3%;
-            top: 68%;
-        } */
-    }
-
 @media only screen and (min-width: 845px) and (max-width: 1260px) {
-        .pageImage {
-            margin: 57% 10% 57% 15%;
-        }
+    .pageImage {
+        margin: 57% 10% 57% 15%;
     }
-
+}
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-        .contactContainer {
-            left: 12%;
-            top: 5%;
-            width: 80%;
-            height: 70%;
-            position: absolute;
-            margin: auto;
-        }
+    .contactContainer {
+        left: 12%;
+        top: 5%;
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        margin: auto;
     }
-
+}
 @media only screen and (min-width: 600px) and (max-width: 1050px) {
-        .centerPage {
-            top: 5%;
-            left: 8%;
-            position: absolute;
-            width: 90%;
-            height: 98%;
-            display: block;
-            grid-template-columns: 0;
-        }
-        .pageHomeLeft {
-            text-align: center;
-            width: 100%;
-            height: 24%;
-            float: left;
-            margin-top: 0;
-        }
-        .char {
-            margin-bottom: 20px;
-            position: inherit;
-            left: 0;
-            text-align: center;
-        }
-        .pageImage {
-            margin: 9% 18%;
-            width: 60%;
-            height: 0;
-            float: left;
-            position: initial;
-            right: 0;
-            top: 0;
-            background: url(../images/colorMeTiny.jpg);
-            background-size: cover;
-            border-radius: 50%;
-            border: solid 1px #00ffea;
-            padding-bottom: 60%;
-        }
-        .pageHomeRight {
-            text-align: center;
-            float: left;
-            width: 100%;
-            margin-top: 0%;
-        }
-        .char21 {
-            margin-bottom: 20px;
-        }
-        .char23 {
-            margin-bottom: 20px;
-        }
-        .char27 {
-            margin-bottom: 20px;
-        }
-        .char29 {
-            margin-bottom: 20px;
-        }
+    .centerPage {
+        top: 5%;
+        left: 8%;
+        position: absolute;
+        width: 90%;
+        height: 98%;
+        display: block;
+        grid-template-columns: 0;
     }
+    .pageHomeLeft {
+        text-align: center;
+        width: 100%;
+        height: 24%;
+        float: left;
+        margin-top: 0;
+    }
+    .char {
+        margin-bottom: 20px;
+        position: inherit;
+        left: 0;
+        text-align: center;
+    }
+    .pageImage {
+        margin: 9% 18%;
+        width: 60%;
+        height: 0;
+        float: left;
+        position: initial;
+        right: 0;
+        top: 0;
+        background: url(../images/colorMeTiny.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        padding-bottom: 60%;
+    }
+    .pageHomeRight {
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .char21 {
+        margin-bottom: 20px;
+    }
+    .char23 {
+        margin-bottom: 20px;
+    }
+    .char27 {
+        margin-bottom: 20px;
+    }
+    .char29 {
+        margin-bottom: 20px;
+    }
+}
 
 
 
