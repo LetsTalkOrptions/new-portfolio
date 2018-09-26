@@ -822,6 +822,68 @@
 
 
 /* Navbar move to top below 600px */
+
+@media only screen and (min-width: 300px) and (max-width: 459px) {
+    .aboutImages {
+        display: none;
+    }
+    #aboutImage1 {
+        width: 75%;
+        top: 4%;
+        margin: auto;
+        padding-bottom: 75%;
+        background: url(../images/tigerTiny.jpeg);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+    }
+    #aboutImage2 {
+        width: 75%;
+        margin: auto;
+        margin-top: 3%;
+        padding-bottom: 75%;
+        background: url(../images/golfTiny.JPG);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+        right: 0%;
+        top: 0;
+        float: none;
+        position: unset;
+    }
+    #aboutImage3 {
+        width: 75%;
+        padding-bottom: 75%;
+        background: url(../images/chinaTiny.JPG);
+        background-size: cover;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 3%;
+        border: solid 1px #00ffea;
+        display: block;
+        right: 0%;
+        top: 0;
+        float: none;
+        position: unset;
+    }
+    #aboutImage4 {
+        width: 75%;
+        margin: auto;
+        margin-top: 3%;
+        padding-bottom: 75%;
+        background: url(../images/lamboTiny.JPG);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+        right: 0%;
+        top: 0;
+        float: none;
+        position: unset;
+    }
+}
 @media only screen and (max-width: 600px) {
 
     .contactContainer {
@@ -941,13 +1003,9 @@
         left: 7%;
     }
     .aboutImages {
-        top: 111%;
-        width: 88%;
-        left: 10%;
-        margin-top: 8%;
-        height: auto;
+        display: none;
     }
-    #aboutMePic1 {
+    /* #aboutMePic1 {
         height: auto;
         width: 100%;
         margin: auto;
@@ -991,7 +1049,7 @@
         border: solid 1px #00ffea;
         display: block;
         padding-bottom: 100%;
-    }
+    } */
     .aboutContainer {
         width: 90%;
         left: 5%;
@@ -999,7 +1057,7 @@
     .aboutText {
         width: 100%;
     }
-    #aboutImage1 {
+    /* #aboutImage1 {
         width: 92%;
         height: inherit;
         right: 0%;
@@ -1042,7 +1100,7 @@
         float: left;
         position: relative;
         margin-bottom: 5%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -1222,6 +1280,27 @@
         letter-spacing: 1.4px;
         line-height: 1.6;
     }
+    .aboutContainer {
+        width: 88%;
+        height: 100%;
+        position: initial;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+    .contentContainer {
+        margin-top: 0;
+    }
+    .aboutImages {
+        top: 91%;
+        width: 88%;
+        left: 10%;
+        margin-top: 15%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 460px) and (max-width: 859px) {  
     .aboutImages {
         top: 91%;
         width: 88%;
@@ -1229,6 +1308,63 @@
         margin-top: 70px;
     }
     #aboutImage1 {
+        height: 0;
+        width: 43%;
+        top: 4%;
+        left: 0;
+        padding-bottom: 43%;
+        background: url(../images/tigerTiny.jpeg);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+        position: inherit;
+    }
+    #aboutImage2 {
+        height: 0;
+        width: 43%;
+        margin: auto;
+        right: 0%;
+        top: 20%;
+        float: right;
+        padding-bottom: 43%;
+        background: url(../images/golfTiny.JPG);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+        position: inherit;
+    }
+    #aboutImage3 {
+        height: 0;
+        width: 43%;
+        top: 51%;
+        padding-bottom: 43%;
+        background: url(../images/chinaTiny.JPG);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+        position: inherit;
+        margin-top: 47%;
+    }
+    #aboutImage4 {
+        height: 0;
+        width: 43%;
+        margin: auto;
+        right: 0;
+        margin-top: 47%;
+        top: 61%;
+        float: right;
+        padding-bottom: 43%;
+        background: url(../images/lamboTiny.JPG);
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 1px #00ffea;
+        display: block;
+        position: inherit;
+    }
+    /* #aboutImage1 {
         width: 40vw;
         height: 35vh;
         right: 0%;
@@ -1270,25 +1406,9 @@
         padding-bottom: 28px;
         float: right;
         position:relative;
-    }
-    .aboutContainer {
-        width: 88%;
-        height: 100%;
-        position: initial;
-        margin-left: 10%;
-        margin-top: 4%;
-    }
-    .contentContainer {
-        margin-top: 0;
-    }
-    .aboutImages {
-        top: 91%;
-        width: 88%;
-        left: 10%;
-        margin-top: 20%;
-        height: auto;
-    }
-    #aboutImage1 {
+    } */
+    
+    /* #aboutImage1 {
         width: 48%;
         height: inherit;
         right: 0%;
@@ -1374,10 +1494,10 @@
         border: solid 1px #00ffea;
         display: block;
         padding-bottom: 100%;
-    }
+    } */
 }
 
-@media only screen and (min-width: 860px) and (max-width: 1060px) {
+@media only screen and (min-width: 860px) and (max-width: 1300px) {
     .aboutImages {
         top: 5%;
         right: 0;
@@ -1385,7 +1505,23 @@
         height: 100%;
         position: absolute;
     }
-    #aboutMePic1 {
+    #aboutImage1{
+        width: 48%;
+        padding-bottom: 48%;
+    } 
+    #aboutImage2{
+        width: 48%;
+        padding-bottom: 48%;
+    }
+    #aboutImage3{
+        width: 48%;
+        padding-bottom: 48%;
+    }
+    #aboutImage4{
+        width: 48%;
+        padding-bottom: 48%;
+    }
+    /* #aboutMePic1 {
         height: 100%;
         width: 100%;
         margin: auto;
@@ -1458,11 +1594,11 @@
         position: fixed;
         right: 3%;
         top: 68%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1061px) and (max-width: 1150px) {
-    #aboutImage1 {
+    /* #aboutImage1 {
         width: 25vw;
         height: 29vh;
         right: 0%;
@@ -1495,11 +1631,11 @@
         position: fixed;
         right: 3%;
         top: 71%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1151px) and (max-width: 1325px) {
-        #aboutImage1 {
+        /* #aboutImage1 {
             width: 25vw;
             height: 32vh;
             right: 0%;
@@ -1532,7 +1668,7 @@
             position: fixed;
             right: 3%;
             top: 68%;
-        }
+        } */
     }
 
 @media only screen and (min-width: 845px) and (max-width: 1260px) {
