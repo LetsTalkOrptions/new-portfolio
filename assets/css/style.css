@@ -440,83 +440,65 @@
     margin-top: 2%;
 }
 .aboutImages {
-    top: 5%;
+    top: 2%;
     right: 0;
     width: 45%;
     height: 100%;
     position: absolute;
 }
-#aboutMePic1 {
-    height: 100%;
-    width: 100%;
-    margin: auto;
+#aboutImage1 {
+    height: 0;
+    width: 43%;
+    right: 0%;
+    top: 4%;
+    padding-bottom: 43%;
     background: url(../images/tigerTiny.jpeg);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
     display: block;
 }
-#aboutImage1 {
-    width: 25vw;
-    height: 35vh;
-    right: 0%;
-    top: 4%;
-    display: block;
-    padding-bottom: 28px;
-}
-#aboutMePic2 {
-    height: 100%;
-    width: 100%;
+#aboutImage2 {
+    height: 0;
+    width: 43%;
     margin: auto;
+    right: 12%;
+    top: 20%;
+    float: right;
+    padding-bottom: 43%;
     background: url(../images/golfTiny.JPG);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
     display: block;
-}
-#aboutImage2 {
-    right: 0;
-    width: 20vw;
-    height: 30vh;
-    position: fixed;
-    top: 27%;
-    display: block;
-    float: right;
-    padding-right: 10px;
-}
-#aboutMePic3 {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(../images/chinaTiny.jpg);
-    background-size: cover;
-    border-radius: 50%;
-    border: solid 1px #00ffea;
-    margin-right: 9px;
+    position: inherit;
 }
 #aboutImage3 {
-    width: 22vw;
-    height: 34vh;
-    right: 0%;
-    top: 61%;
-    padding-right: 20px;
-    padding-left: 2px;
-}
-#aboutMePic4 {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background: url(../images/lamboTiny.jpg);
+    height: 0;
+    width: 43%;
+    top: 40%;
+    padding-bottom: 43%;
+    background: url(../images/chinaTiny.JPG);
     background-size: cover;
     border-radius: 50%;
     border: solid 1px #00ffea;
+    display: block;
+    position: inherit;
 }
 #aboutImage4 {
-    width: 22vw;
-    height: 33vh;
-    position: fixed;
-    right: 3%;
-    top: 66%;
+    height: 0;
+    width: 43%;
+    margin: auto;
+    right: 12%;
+    top: 61%;
+    float: right;
+    padding-bottom: 43%;
+    background: url(../images/lamboTiny.JPG);
+    background-size: cover;
+    border-radius: 50%;
+    border: solid 1px #00ffea;
+    display: block;
+    position: inherit;
 }
 /* Skills Page */
 .skillsContainer {
